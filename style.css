@@ -1,0 +1,243 @@
+* {
+    font-family: ;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/netflix-background.jpeg");
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+    back
+}
+
+.box {
+    height: 70vh;
+    opacity: 0.66;
+    width: 100%;
+    background-color: rgb(11, 1, 1);
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 65vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 60px;
+
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: martel sans, sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 10;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+
+}
+
+.hero> :nth-child(1) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(26, 26, 26);
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    padding: 10px 95px 10px 9px;
+    color: white;
+    font-size: 22px;
+    font-weight: 900;
+    border-radius: 4px;
+    background-color: rgba(233, 220, 220, 0.7);
+    border: 1px solid rgb(239, 233, 233, 0.5);
+
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400px;
+    background-color: rgba(248, 243, 243, 0.342);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 15px  15px ;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.btn-red-sm {
+    background-color: rgb(224, 199, 199);
+    color: white;
+
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    color: white;
+    align-items: center;
+    margin: auto;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 35vw;
+    z-index: 10;
+    position: relative;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.second {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin: auto;
+}
+
+section.second> :div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.second> :nth-child(1) {
+ margin: 5%;
+}
+
+section.second> :nth-child(2) {
+    font-weight: bolder;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 11vh;
+}
+
+section.second>div :nth-child(3) {
+    font-weight: bolder;
+    font-size: 25px;
+}
+section.third> :div{
+    border:  10px;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.third> :nth-child(1){
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bolder;
+
+}
+section.third> div :nth-child(1){
+    font-size: 50px;
+    column-gap: 10px;
+}
+section.third> div :nth-child(2){
+    font-size: 25px;
+    column-gap: 10px;
+
+}
+section.third> div :nth-child(3){
+    font-size: 24px;
+}
+
+.secvideo{
+    position: relative;
+}
+.secvideo img{
+    position: relative;
+    z-index: 10;
+    width: 35vw;
+}
+.secvideo video{
+    position: absolute;
+    bottom: 0px;
+    top: 51px;
+    right: 14px;
+}
